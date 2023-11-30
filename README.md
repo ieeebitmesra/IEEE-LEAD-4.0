@@ -6,7 +6,7 @@ This is a student repository for projects submitted during IEEE LEAD 2023
 
 Your project should be in a single folder (of your name) which needs to be uploaded either in Project1 (Portfolio) or Project2 (News API). There should be no `.git` folders in your project, because `IEEE-LEAD-4.0` is itself a git repository and repositories can't be nested. 
 
-You can look at the final structure of repository from a [repository of previous editions of LEAD](https://github.com/ieeebitmesra/IEEE-LEAD-2.0).  
+You can look at the final structure of repository from a [repository of previous editions of LEAD](https://github.com/ieeebitmesra/IEEE-LEAD-3.0).  
 
 ## Submitting your Projects
 
