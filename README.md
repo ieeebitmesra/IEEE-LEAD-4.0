@@ -8,6 +8,8 @@ Your project should be in a single folder (of your name) which needs to be uploa
 
 You can look at the final structure of repository from a [repository of previous editions of LEAD](https://github.com/ieeebitmesra/IEEE-LEAD-3.0).  
 
+NOTE: In the README.md file of your project, ensure to include either link to the hosted website or a video demo of your website.
+
 ## Submitting your Projects
 
 Before you get started, these are the steps that you need to follow only ONCE at the begining:
