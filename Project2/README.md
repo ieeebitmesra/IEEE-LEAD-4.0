@@ -1,7 +1,7 @@
-# API Project
+# News API
 
 ### Mandatory MileStones
-* Choose any News API which you see fit. `eg: https://rapidapi.com/opteka-opteka-default/api/newsi-api , mediastack.com (won’t work in production mode)`
+* Choose any News API which you see fit. `eg: https://rapidapi.com/opteka-opteka-default/api/newsi-api`
 * Homepage for all latest news
 * Option to get news by category. eg: travel, sport, entertainment
 * Option to get news by country
