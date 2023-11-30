@@ -12,7 +12,7 @@ You can look at the final structure of repository from a [repository of previous
 
 Before you get started, these are the steps that you need to follow only ONCE at the begining:
 - [Fork this repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until you're ready to merge them.
-- Go to your forked repository. Notice that the end of the URL should resemble `<your_github_username>/IEEE-LEAD-3.0`.
+- Go to your forked repository. Notice that the end of the URL should resemble `<your_github_username>/IEEE-LEAD-4.0`.
 - Clone your forked repository: Click on the green `Code` button and copy the `HTTPS` URL of the repository.
     - Now, open `gitbash`(or `Terminal`, if you are on UNIX-system) in the folder where you want to clone the repository, and issue the following command:
     ```
