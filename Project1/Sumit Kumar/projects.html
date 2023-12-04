@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css"
+      integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js"
+      integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script
+      src="https://kit.fontawesome.com/82dd9819c0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Hedvig+Letters+Serif:opsz@12..24&family=Montserrat:wght@100;900&family=Pacifico&family=Permanent+Marker&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      h2 {
+        font-family: "Permanent Marker";
+      }
+      h1 {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+      }
+      p {
+        font-family: "Hedvig Letters Serif";
+      }
+      .ico {
+        font-family: "Hedvig Letters Serif";
+      }
+      .proj:hover {
+        transform: scale(1.1);
+      }
+      .thir {
+        height: 10rem;
+        width: 10rem;
+      }
+
+      @media (max-width: 680px) {
+        .contain {
+          display: flex;
+          flex-direction: column;
+        }
+        h1 {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body class="project-page">
+    <h1 style="color: #a5d7e8">My Projects</h1>
+    <div class="contain">
+      <div class="first card proj">
+        <div class="card-body">
+          <h2 class="card-title">Tindog</h2>
+          <img class="card-img-top imm" src="images/tindog_img.png" />
+          <p class="card-text"></p>
+          <p class="card-text">
+            Created this project while learning Bootstrap from Angela Yu
+          </p>
+          <a
+            href="https://github.com/sumitt-kun"
+            class="btn btn-outline-dark card-link ico"
+            >GitHub <i class="fa-brands fa-github fa-bounce fa-xl"></i
+          ></a>
+        </div>
+      </div>
+      <div class="second card proj">
+        <div class="card-body">
+          <h2 class="card-title card_text">Simon Game</h2>
+          <img
+            class="card-img-top card_img"
+            style="padding: 20px"
+            src="images/simon_img.png"
+          />
+          <p class="card-text card_text">
+            Created this project while learning javascript from Angela Yu
+          </p>
+          <a
+            href="https://github.com/sumitt-kun"
+            class="btn btn-info card-link ico"
+            >GitHub <i class="fa-brands fa-github fa-bounce fa-xl"></i
+          ></a>
+        </div>
+      </div>
+      <div class="third card proj">
+        <div class="card-body">
+          <h2 class="card-title">Drum-Kit</h2>
+          <img class="card-img-top thir" src="images/drum_ig.png" />
+          <p class="card-text">
+            Created this project while learning javascript from Angela Yu.
+          </p>
+          <a
+            href="https://github.com/sumitt-kun"
+            class="btn btn-outline-dark card-link ico"
+            >GitHub <i class="fa-brands fa-github fa-bounce fa-xl"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Kumar</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- JQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      
+
+      <script src="https://kit.fontawesome.com/82dd9819c0.js" crossorigin="anonymous"></script>
+      
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+
+
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:wght@100;900&family=Pacifico&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Hedvig+Letters+Serif:opsz@12..24&family=Montserrat:wght@100;900&family=Pacifico&family=Permanent+Marker&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<style>
+    h1{
+        font-family: "Permanent Marker";
+    }
+    p{
+        font-family: "Permanent Marker";
+    }
+    h3{
+        font-family: "Agbalumo";
+    }
+    img:hover {
+     transform: scale(1.2); 
+    }
+    @media (max-width:973px) and (min-width:505px){
+        h1{
+            font-size: 3rem;
+        }
+        h3{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+        .img1{
+            height:400px;
+            width: 250px;
+            margin-bottom: 0px; 
+            padding-top: 50px;  
+            padding-bottom: 0px;
+        }
+        .txt{
+            font-size: 2rem;
+        }
+        .qr{
+            height: 10rem;
+            width: 10rem;
+            padding: 5px;
+        }
+
+    }
+    @media(max-width:505px){
+        .top{
+            display: flex;
+            flex-direction: column;
+        }
+        h1{
+            font-size: 2rem;
+            padding-right: 70px;
+            padding-top: 30px;
+            text-align: center;
+        }
+        h3{
+            font-size: 1.2rem;
+            padding: 30px;
+            margin-right: 80px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        p{
+            font-size: 1rem;
+        }
+        .txt{
+            font-size: 1rem;
+            padding: 30px;
+            margin: 0px;
+            padding-top: 0px;
+            padding-bottom: 020px;
+            margin-right: 80px;
+        }
+        .img1{
+            height: 12rem;
+            width: 9rem;
+        }
+        .qr{
+            height: 6rem;
+            width: 6rem;
+            margin: 0px;
+            /* margin-bottom: 2px; */
+            margin-right: 80px;
+            /* padding-bottom: 2px; */
+        }
+        .ic{
+            height: 1rem;
+            padding-bottom: 2px;
+            margin-bottom: 0px;
+        }
+    }
+</style>
+</head>
+<body>
+<div id="header">
+    <section id="title">
+        <div class="container-fluid">
+
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <a class="navbar-brand" href=""></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="./about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./skills.html">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./projects.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact me</a>
+                  </li>
+              </ul>
+           </div>
+    </section>
+    <div class="top">
+        <div class="greet"><h1>Hey there!</h1></div>
+        <div class="name"><h3>I'am Sumit Kumar currently a sophomore at BIT Mesra studying AI&ML.
+        </h3>
+        <br>
+        <p class="txt">Let's connect!</p>
+        <img class="qr" src="qr-code.png">
+        </div>
+        <div class="img"><img class="img1" src="img2.png"></div>
+        
+    </div>
+</div>
+
+    <!-- <div class="mid">
+        <h2>hello</h2>
+
+    </div> -->
+
+    <footer id="footer">
+        <a href="https://www.linkedin.com/in/sumit-kun"><i class="fa-brands fa-linkedin-in fa-beat-fade fa-2xl ic"></i></i></a>
+        <a href="https://instagram.com/sumitt_kun?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram fa-beat-fade fa-2xl ic"></i></a>
+        <a href=""><i class="fa-brands fa-x-twitter fa-beat-fade fa-2xl ic"></i></a>
+        <a href=""><i class="fa-solid fa-envelope fa-beat-fade fa-2xl ic"></i></a>
+        
+    
+    </footer>
+
+    
+</body>
+</html>
