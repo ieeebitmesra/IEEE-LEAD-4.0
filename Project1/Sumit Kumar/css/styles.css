@@ -35,6 +35,7 @@ body {
 .img1 {
   height: 600px;
   width: 400px;
+  border-radius: 5%;
 }
 .name {
   grid-column-start: 1;
