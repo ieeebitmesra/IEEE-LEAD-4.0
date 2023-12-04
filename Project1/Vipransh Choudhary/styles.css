@@ -1,0 +1,333 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-links a{
+    width: 40px; /* Adjust the size as needed */
+    height: 40px;
+    margin-right: 50px;
+}
+
+/* Add this to the existing CSS for the new elements */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* Add dark mode styles */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+nav, footer {
+    background-color: rgb(77, 7, 241) 94, 19; /* Update to a darker color for better contrast in dark mode */
+}
+
+/* Add styles for visually appealing animations and layout */
+nav {
+    transition: background-color 0.5s;
+}
+
+nav ul {
+    transition: transform 0.3s;
+}
+
+nav li {
+    transition: opacity 0.3s;
+}
+
+footer {
+    transition: background-color 1s;
+}
+
+.social-links a {
+    transition: color 0.5s;
+}
+
+section {
+    border: 1px solid #ddd;
+    padding: 60px;
+    margin: 60px;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add this to the existing CSS for the new skill icons */
+#skills {
+    background-color: #f9f9f9;
+    padding: 100px;
+    text-align: center;
+}
+#contact {
+    
+    padding: 100px;
+    text-align: center;
+    
+}
+#about {
+    background-color: #f9f9f9;
+    padding: 100px;
+    text-align: center;
+}
+
+#home{
+    background-color: #f9f9f9;
+    padding: 100px;
+    text-align: center;
+}
+
+#projects{
+    background-color: #f9f9f9;
+    padding: 100px;
+    text-align: center;
+}
+
+.skill-icon {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(211, 12, 12, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.skill-icon img {
+    width: 80px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.skill-icon p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    nav.open ul {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    nav li {
+        margin: 10px 0;
+        display: block;
+        text-align: center;
+    }
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* Add bright colors to each section */
+header {
+    background-color: #FF6F61; /* Coral */
+    color: #fff;
+    text-align: center;
+    padding: 30px; /* Increased padding */
+}
+
+nav {
+    background-color: #03040a; /* Purple */
+    color: #fff;
+    padding: 15px; /* Increased padding */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    margin: 40px; /* Increased margin */
+    padding: 30px; /* Increased padding */
+    border-radius: 15px; /* Increased border-radius */
+}
+
+section#home {
+    background-color: #FFD700; /* Gold */
+}
+
+section#about {
+    background-color: #56B4E9; /* Sky Blue */
+}
+
+section#skills {
+    background-color: #FFC0CB; /* Pink */
+}
+
+.skill-icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-icon {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.skill-icon img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.skill-icon p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+section#projects {
+    background-color: #90EE90; /* Light Green */
+}
+
+section#contact {
+    background-color: #FF6347; /* Tomato */
+}
+
+footer {
+    background-color: #071507; /* Green */
+    color: #fff;
+    text-align: flex;
+    padding: 20px; /* Increased padding */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+#darkModeIcon,
+#lightModeIcon {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+/* Update the button styling */
+#goToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #5E72E4; /* Purple */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+#goToTopBtn:hover {
+    background-color: #32408F; /* Darker Purple on hover */
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>VIP__Portfolio</title>
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+  
+
+    <button id="darkModeToggle" onclick="toggleDarkMode()">
+        <span id="darkModeIcon">&#9728;</span> 
+        <span id="lightModeIcon">&#9790;</span> 
+    </button>
+    
+    <button id="goToTopBtn" onclick="goToTop()">↑ Go to Top</button>
+
+    <header style="background-image: linear-gradient(to bottom right, #FDABDD, #374A5A); border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(1, 1, 12), rgb(7, 0, 10)) 1;">
+       
+  <h1>Hello! Myself <b><u style="color:rgb(139, 4, 76);"> <span class="auto-type"></span></u></b></h1>
+ 
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed(".auto-type", { strings : ["VIPRANSH CHOUDHARY"], typeSpeed:150, backSpeed:150, loop:true })
+        </script>
+        <p> B.Tech Computer Science Undergrad at Birla Institute of Technology Mesra</p>
+    </header>
+
+    <section id="about" style="background-image: linear-gradient(to bottom right, #009245, #FCEE21); border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(173, 198, 14),rgb(64, 3, 60)d) 1;">
+        <h2><u>About Me</u></h2>
+        <p style="font-size: large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">I am nineteen year old programming enthusiast dedicated to continuous learning and exploring new technologies to solve     real-world problems. My interest lies in Competitive Programming using C++, Machine learning and web development.  </p>
+            
+       <p style="font-size: large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">I did my schooling from DE NOBILI SCHOOL CMRI, Dhanbad, Jharkhand. Computer Science and Mathematics were my favorite subjects in School which led me to persue a technical degree, particularly software engineering. </p>
+      
+    </section>
+
+    
+    <section id="contact" style="background-image: linear-gradient(to right, #0099f7, #f11712); border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;">
+        <h2><u>Contact</u></h2>
+        <h4 style="color: aquamarine;">Get In Touch With Me</h4>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/mpznovjb" method="POST">
+              <div class="form-control">
+                <label for="name"><b>Name</b></label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="xxxxxxxxxxxxxxxxxx"
+                  class="input-field"
+                  style=" border-color: aquamarine;"
+                  required
+                />
+              </div>
+              <br>
+              <br>
+              <div class="form-control">
+                <label for="email"><b>Email</b></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="xxxxxxxxx@gmail.com"
+                  class="input-field"
+                  style=" border-color: aquamarine;"
+                  required
+                />
+              </div>
+              <br>
+              <br>
+              <div class="form-control">
+                <label for="message"><b>Message</b></label>
+                <br>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                  style=" border-color: aquamarine;"
+                ></textarea>
+              </div>
+              <br>
+              <br>
+              <br>
+              <br>
+              <input
+                type="submit"
+                value="SUBMIT"
+                id="submit-btn"
+                class="submit-btn"
+                style="padding: 10px; width: 200px; font-family:'Times New Roman', Times, serif; border-width: 10px;"
+              />
+            </form>
+          </div>
+        </div>
+     
+    </section>
+
+    <section id="home" style="background-image: linear-gradient(to bottom right, #FF3E9D, #0E1F40); border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(3, 3, 93), rgb(208, 246, 42)) 1;">
+        <h2><u>Welcome to My Portfolio</u></h2>
+        <p>This is the home page of my portfolio website.</p>
+    </section>
+    
+   <section id="skills" style="background-image: linear-gradient(to bottom right, #FF61D2, #FE9090); border-width: 10px;
+   border-style: solid;
+   border-image: linear-gradient(to right, rgb(125, 139, 0), rgb(98, 2, 11)) 1;">
+    <h2><u>Skills</u></h2>
+    <div class="skill-icons">
+        <div class="skill-icon">
+            <img src="images/java-icon.png" alt="Java">
+            <p>Java</p>
+        </div>
+        <div class="skill-icon">
+            <img src="images/cpp-icon.png" alt="C++">
+            <p>C++</p>
+        </div>
+        <div class="skill-icon">
+            <img src="images/github-icon.png" alt="GitHub">
+            <p>GitHub</p>
+        </div>
+        <div class="skill-icon">
+            <img src="images/javascript-icon.png" alt="JavaScript">
+            <p>JavaScript</p>
+        </div>
+        <div class="skill-icon">
+            <img src="images/html-icon.png" alt="HTML">
+            <p>HTML</p>
+        </div>
+        <div class="skill-icon">
+            <img src="images/Css-icon.png" alt="CSS">
+            <p>CSS</p>
+        </div>
+        <div class="skill-icon">
+            <img src="images/C.png" alt="C">
+            <p>C</p>
+        </div>
+    </div>
+</section>
+
+    
+    <section id="projects" style="background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(226, 215, 65), rgb(21, 61, 1)) 1;">
+        <h2><u>Projects</u></h2>
+        <h3>NOTHING YET!</h3>
+        <p>Working on it......................................</p>
+        <!-- Add your project details here -->
+    </section>
+    
+
+    <script src="applead.js"></script>
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/beingsalmankhan/?hl=en" target="_blank" rel="noopener noreferrer">
+                <img src="images/instagram-icon.png" alt="Instagram" class="social-icon">
+            </a>                
+                    <a href="your-linkedin-link" target="_blank" rel="noopener noreferrer">
+                        <img src="images/linkedin-icon.png" alt="LinkedIn" class="social-icon">
+                    </a>
+                    <a href="your-github-link" target="_blank" rel="noopener noreferrer">
+                        <img src="images/github-icon.png" alt="GitHub" class="social-icon">
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="images/youtube-icon.png" alt="YouTube" class="social-icon">
+                    </a>
+               
+                    <a href="https://codeforces.com/profile/vip.ism23" target="_blank" rel="noopener noreferrer">
+                        <img src="images/code-forces.png" alt="CodeForces" class="social-icon">
+                    </a>
+
+                </div>
+            </footer>
+            
+    </footer>
+    
+</body>
+</html>
